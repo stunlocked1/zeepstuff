@@ -4,7 +4,7 @@ from datetime import date
 today = str(date.today().strftime("%d%m%Y"))
 folder,amountOfLevels ,levels,start= filedialog.askdirectory(),0,[],0
 for r, d, f in os.walk(folder):
-    print('|',end='')
+    #print('|',end='')
     for file in f:
         if file.lower().endswith('.zeeplevel'):
             with open(r+'/'+file, 'r') as file:
