@@ -17,7 +17,7 @@ for r, d, f in os.walk(folder):
 zeeplist=f"""{{
     "name": "zeeplistgen{today}",
     "amountOfLevels": {amountOfLevels},
-    "roundLength": 20,
+    "roundLength": 60,
     "shufflePlaylist": true,
     "UID": [],
     "levels": ["""
